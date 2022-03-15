@@ -8,10 +8,11 @@ body{
 }
 
 .navbar{
-    margin-bottom: 0px;
-    background-color: #323232;
-    border-bottom: 1px gray;
+	display:table;
+	margin: 0 auto;
+	position:relative;
 }
+
 
 .small-image{
     height: 35rem;
@@ -71,4 +72,50 @@ h1, h3{
      height: 4rem;
      font-size: 2rem;
      border-radius: 2rem;
+}
+
+
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  max-width: 300px;
+  margin: 20px;
+  font-family: arial;
+  padding: 20px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+.row {margin: 0 -5px;}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
 }
