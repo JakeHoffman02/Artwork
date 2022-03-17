@@ -1,17 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+.heading{
+	text-align:center;
+	color: #000000;
+}
+
 body{
     overflow: none;
     width: 100%;
     margin: 0 auto;
     font-family: 'Roboto', sans-serif;
+	background-color:  #DEDEDE;
 }
 
-.navbar{
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  background-color: #454545;
+}
+
+li {
+  float: left;
+  
+}
+li a {
+  display: block;
+  color: FFFFFF;
+  text-align: center;
+  padding: 16px;     
+  text-decoration: none;
+  font-size:24px;
+}
+#outer-menu{
+	position:relative;
+	top:28px;
+	height:58px;
+	opacity:0.8;
+	background-color:	#242424;
+	border:solid black;
+}
+.nav{
 	display:table;
 	margin: 0 auto;
 	position:relative;
 }
+
+
+
+
 
 
 .small-image{
@@ -52,10 +91,10 @@ p{
     font-size: 2rem;
 }
 
-h1, h3{
-    color: #286090;
-    text-decoration: underline; 
-}
+/* h1, h3{ */
+    /* color: #286090; */
+    /* text-decoration: underline;  */
+/* } */
 
  #index-part1{
     background: white;
@@ -118,4 +157,55 @@ img {
     display: block;
     margin-bottom: 20px;
   }
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+
+
+
+* {box-sizing:border-box}
+
+
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+}
+
+
+.mySlides {
+  display: none;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
 }
