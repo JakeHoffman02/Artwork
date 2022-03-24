@@ -1,0 +1,110 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Card Collecting</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="external.css"> 
+  <link rel="stylesheet" href="lightbox.css">  
+  <script src="lightbox.js"></script>   
+
+<style>
+.center {
+  text-align: center;
+}
+
+</style>    
+    
+</head>
+
+<body>
+<div id="outer-menu">
+<div class="nav navbar-left">
+	<a class="navbar-brand" href="#">Art Underground</a>
+	<ul class="nav navbar-nav">
+		
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="timeline.html">TIMELINE</a></li>
+        <li><a href="map.html">MAP</a></li>
+    </ul>
+</div>    
+</div>  
+<h1 style = "text-align: center;">Map</h1>
+<h3 style = "text-align: center;">Explore artwork by location in NYC</h3>
+<br>
+<br>
+<br>
+<br>
+<div class = "center">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48372.740416834495!2d-74.02935832805036!3d40.73350579754305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a21fb011c85%3A0x37513b7f1821408b!2sGrand%20Central%20Terminal!5e0!3m2!1sen!2sus!4v1648086155671!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+<h1 style = "text-align: center;">Images</h1>
+
+
+<div class="row">
+  <div class="column">
+    <img src="content/img1.jpeg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="content/img1.jpeg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="content/img2.jpeg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="content/img2.jpeg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="content/img1.jpeg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="content/img1.jpeg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="content/img2.jpeg" style="width:100%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="content/img2.jpeg" style="width:100%">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+    <div class="column">
+      <img class="demo cursor" src="content/img1.jpeg" style="width:100%" onclick="currentSlide(1)" alt="Image">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="content/img1.jpeg" style="width:100%" onclick="currentSlide(2)" alt="Image">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="content/img2.jpeg" style="width:100%" onclick="currentSlide(3)" alt="Image">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="content/img2.jpeg" style="width:100%" onclick="currentSlide(4)" alt="Image">
+    </div>
+  </div>
+</div>
+
+
+</html>

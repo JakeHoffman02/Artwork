@@ -170,7 +170,7 @@ img {
 
 
 .img1 {
-	background-image: url("homepagebackground1.png");
+	background-image: url("content/homepagebackground1.png");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: 100% 100%;
@@ -226,7 +226,7 @@ img {
 }
 
 
-.container {
+.containerz {
   padding: 10px 40px;
   position: relative;
   background-color: inherit;
@@ -234,7 +234,7 @@ img {
 }
 
 
-.container::after {
+.containerz::after {
   content: '';
   position: absolute;
   width: 25px;
@@ -306,14 +306,14 @@ img {
   }
   
   /* Full-width containers */
-  .container {
+  .containerz {
   width: 100%;
   padding-left: 70px;
   padding-right: 25px;
   }
   
   /* Make sure that all arrows are pointing leftwards */
-  .container::before {
+  .containerz::before {
   left: 60px;
   border: medium solid white;
   border-width: 10px 10px 10px 0;
