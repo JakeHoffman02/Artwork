@@ -10,7 +10,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="external.css">  
-  <script src="SlideShow.js"></script> 
+
 
 <style>
 .button {
@@ -34,6 +34,8 @@
 
 .button1 {background-color: #0000cc;} 
 .button2 {background-color: #0000cc;} /* Blue */
+
+html { scroll-behavior: smooth; } 
 </style>
     
 </head>
@@ -64,8 +66,8 @@
 	<br>
 	<br>
 	<div class="center">
-	<a href="about.html" class="button button1">ABOUT</a>
-	<a href="arex.html" class="button button2">AR EXPERIENCE</a>
+	<a href="#about" class="button button1">ABOUT</a>
+	<a href="#ar" class="button button2">AR EXPERIENCE</a>
 	</div> 
 	<br>
 	<br>
@@ -74,6 +76,8 @@
 	<br>
 	 
 </div>  
+
+<div id ="about">
 <br>
 <br>
 
@@ -90,20 +94,23 @@
 <div>
 <br>
 <br>
-<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
+<p> 
+Since the 1980s, MTA Arts for Transit has commissioned public art that touches the lives of hundreds of thousands of city 
+dwellers as well as national and international visitors. There are over 350 permanent artworks — mosaics, glass, metal, photography, 
+illustrations, sculptures and more — installed throughout New York City’s subway system. This project focuses on bringing six of those 
+works of art online for audiences to experience the art without traveling to New York City.
+</p>
 
 </div>
-</div >
+</div>
+</div>
 
 <br>
 <br>
 <br>
+
 <div class="center">
-	<a href="arex.html" class="button button2">AR EXPERIENCE</a>
+	<a href="#ar" class="button button2">AR EXPERIENCE</a>
 </div> 
 <br>
 <br>
@@ -114,7 +121,7 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
 <br>
 
 <div style="background-color:#FFE6B9;">
-
+<div id ="ar">
 <br>
 <br>
 <br>
@@ -181,7 +188,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 <br>
 </div>
-
+</div>
 
 
 </div>
