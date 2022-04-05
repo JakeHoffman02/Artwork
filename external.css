@@ -58,7 +58,8 @@ li a {
     height: 35rem;
 }
 
-#footer{
+
+footer{
     height: 10rem;
     background: grey;
     text-align: center;
@@ -210,7 +211,6 @@ img {
 
 .timeline {
   position: relative;
-  max-width: 1200px;
   margin: 0 auto;
 }
 

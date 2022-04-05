@@ -9,7 +9,9 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="lightbox.js"></script>
   <link rel="stylesheet" href="external.css">  
+  <link rel="stylesheet" href="lightbox.css"> 
 
 
 <style>
@@ -178,24 +180,46 @@ works of art online for audiences to experience the art without traveling to New
 </video>
 <br>
 <br>
-<p style="text-align:center; padding: 35px;"> 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+<p style="text-align:center;"> 
+Using the Artivive App (available for free in the App Store) on a smartphone or tablet. 
 </p>
+<p style="text-align:center;"> 
+Expand one of the images below and point the camera of your device at thge image 
+</p>
+<p style="text-align:center;"> 
+to enchance your viewing experience.
+</p>
+
+<br>
+<br>
+
 
 <div class="row">
   <div class="column">
-    <img src="content/Img1.jpeg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+    <img src="content/Lightbox1.JPG" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
   </div>
   <div class="column">
-    <img src="content/Img1.jpeg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+    <img src="content/Lightbox2.JPG" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
   </div>
   <div class="column">
-    <img src="content/Img2.jpeg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+    <img src="content/Lightbox3.JPG" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
   </div>
   <div class="column">
-    <img src="content/Img2.jpeg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+    <img src="content/Lightbox4.JPG" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
   </div>
+  <div class="column">
+    <img src="content/Lightbox5.JPG" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="content/Lightbox6.JPG" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="content/Lightbox7.JPG" style="width:100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="content/Lightbox8.JPG" style="width:100%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+  </div>  
+ 
 </div>
 
 <div id="myModal" class="modal">
@@ -203,25 +227,44 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
   <div class="modal-content">
 
     <div class="mySlides">
-      <div class="numbertext">1 / 4</div>
-      <img src="content/Img1.jpeg" style="width:100%">
+      <div class="numbertext">1 / 8</div>
+      <img src="content/Lightbox1.JPG" style="width:100%">
     </div>
 
     <div class="mySlides">
-      <div class="numbertext">2 / 4</div>
-      <img src="content/Img1.jpeg" style="width:100%">
+      <div class="numbertext">2 / 8</div>
+      <img src="content/Lightbox2.JPG" style="width:100%">
     </div>
 
     <div class="mySlides">
-      <div class="numbertext">3 / 4</div>
-      <img src="content/Img2.jpeg" style="width:100%">
+      <div class="numbertext">3 / 8</div>
+      <img src="content/Lightbox3.JPG" style="width:100%">
     </div>
     
     <div class="mySlides">
-      <div class="numbertext">4 / 4</div>
-      <img src="content/Img2.jpeg" style="width:100%">
+      <div class="numbertext">4 / 8</div>
+      <img src="content/Lightbox4.JPG" style="width:100%">
     </div>
     
+    <div class="mySlides">
+      <div class="numbertext">5 / 8</div>
+      <img src="content/Lightbox5.JPG" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">6 / 8</div>
+      <img src="content/Lightbox6.JPG" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">7 / 8</div>
+      <img src="content/Lightbox7.JPG" style="width:100%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">8 / 8</div>
+      <img src="content/Lightbox8.JPG" style="width:100%">
+    </div>
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
     <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
@@ -231,20 +274,40 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 
     <div class="column">
-      <img class="demo cursor" src="content/Img1.jpeg" style="width:100%" onclick="currentSlide(1)" alt="Image">
+      <img class="demo cursor" src="content/Lightbox1.JPG" style="width:100%" onclick="currentSlide(1)" alt="">
     </div>
     <div class="column">
-      <img class="demo cursor" src="content/Img1.jpeg" style="width:100%" onclick="currentSlide(2)" alt="Image">
+      <img class="demo cursor" src="content/Lightbox2.JPG" style="width:100%" onclick="currentSlide(2)" alt="">
     </div>
     <div class="column">
-      <img class="demo cursor" src="content/Img2.jpeg" style="width:100%" onclick="currentSlide(3)" alt="Image">
+      <img class="demo cursor" src="content/Lightbox3.JPG" style="width:100%" onclick="currentSlide(3)" alt="">
     </div>
     <div class="column">
-      <img class="demo cursor" src="content/Img2.jpeg" style="width:100%" onclick="currentSlide(4)" alt="Image">
+      <img class="demo cursor" src="content/Lightbox4.JPG" style="width:100%" onclick="currentSlide(4)" alt="">
+      
+    <div class="column">
+      <img class="demo cursor" src="content/Lightbox5.JPG" style="width:100%" onclick="currentSlide(5)" alt="">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="content/Lightbox6.JPG" style="width:100%" onclick="currentSlide(6)" alt="">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="content/Lightbox7.JPG" style="width:100%" onclick="currentSlide(7)" alt="">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="content/Lightbox8.JPG" style="width:100%" onclick="currentSlide(8)" alt="">
     </div>
   </div>
 </div>
+</div>
 
+
+<footer>
+<div class="footer-text">
+<br>
+<p>Created by HCI525/ISC325 Group 2 2022</p>
+</div>
+</footer>
 
 </html>
 

@@ -1,4 +1,5 @@
- * {
+
+* {
   box-sizing: border-box;
 }
 
@@ -107,6 +108,7 @@
 
 img {
   margin-bottom: -4px;
+  
 }
 
 .caption-container {
