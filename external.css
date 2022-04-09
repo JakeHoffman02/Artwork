@@ -25,13 +25,13 @@ ul {
 
 li {
   float: left;
-  
+
 }
 li a {
   display: block;
   color: FFFFFF;
   text-align: center;
-  padding: 16px;     
+  padding: 16px;
   text-decoration: none;
   font-size:24px;
 }
@@ -76,16 +76,16 @@ footer{
 }
 
 .inner-li{
-    width: 100%; 
+    width: 100%;
     float:left;
     text-align: center;
-    
+
 }
 
 .inner-li-img{
-    height: 30rem; 
-    float: left; 
-    margin: 0 auto; 
+    height: 30rem;
+    float: left;
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -98,12 +98,12 @@ p{
     background: white;
     padding: 30px 120px 60px 120px;
 }
-        
+
 #index-part2{
     background: #F0F0F0;
     padding: 80px 120px;
 }
-        
+
 #jumbo-button{
      width: 20%;
      height: 4rem;
@@ -176,7 +176,7 @@ img {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: 100% 100%;
-	
+
 
 }
 
@@ -301,19 +301,19 @@ img {
 
 
 @media screen and (max-width: 600px) {
-  
+
   .timeline::after {
   left: 31px;
   }
-  
-  
+
+
   .containerz {
   width: 100%;
   padding-left: 70px;
   padding-right: 25px;
   }
-  
-  
+
+
   .containerz::before {
   left: 60px;
   border: medium solid white;
@@ -321,14 +321,22 @@ img {
   border-color: transparent white transparent transparent;
   }
 
-  
+
   .left::after, .right::after {
   left: 15px;
   }
-  
-  
+
+
   .right {
   left: 0%;
   }
 }
 
+.navbar-brand1 {
+	padding:none;
+	margin-top: 5px;
+    float: left;
+    height: 50px;
+    font-size: 18px;
+    line-height: 20px;
+}
