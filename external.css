@@ -40,8 +40,9 @@ li a {
 	top:28px;
 	height:58px;
 	opacity:0.8;
-	background-color:	#242424;
-	border:solid black;
+	border:solid;
+    background-color: #60bde5; 
+    border-color: #60bde5;
 }
 .nav{
 	display:table;
@@ -49,8 +50,20 @@ li a {
 	position:relative;
 }
 
+.navbar-left{
+    width: 100%;
+}
 
+.navbar-nav{
+    float: right; 
+    display; block;
+    margin-right: 2%;
+}
 
+.navbar-nav a{
+    background-color: #60bde5;
+    color: #223a80;
+}
 
 
 
@@ -116,12 +129,12 @@ p{
 
 .card {
   box-shadow: 1 4px 8px 0 rgba(0,0,0,0.2);
-  max-width: 250px;
+  max-width: 350px;
   margin: auto;
   font-family: arial;
   padding: 35px;
   background-color: rgba(255,255,255, 1);
-
+  height: 35vh;
 }
 
 .card:hover {
@@ -198,7 +211,7 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 30%;
+  height: 400px;
 }
 
 
@@ -340,4 +353,5 @@ img {
     height: 50px;
     font-size: 18px;
     line-height: 20px;
+    margin-left: 2%;
 }
